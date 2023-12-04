@@ -1,32 +1,43 @@
 # LLM-Detected
+## Table of contents
+- [LLM-Detected](#llm-detected)
+  - [Table of contents](#table-of-contents)
+  - [Datasets](#datasets)
+  - [Model](#model)
+  - [Documentation](#documentation)
+    - [Thang](#thang)
+    - [Son](#son)
+    - [Tanya](#tanya)
+    - [Akrash](#akrash)
+  - [Reference/Useful Link](#referenceuseful-link)
 
-# Installations
+## Installations
 - Run ``pip install -r requirements.txt``
 - **Remark**: Please update this file if you install any packages
 
-# Datasets
+## Datasets
 - The datasets can be download through Kaggle websites either by command line ``kaggle competitions download -c llm-detect-ai-generated-text`` or hit Download button on the website
 - The extra datasets (DAIGT V2) can be found [here](https://www.kaggle.com/datasets/thedrcat/daigt-v2-train-dataset)
   - The text is generated from various sources such as llama, mistral, chatgpt, falcon, palm, cohere etc.
 - All data will be stored in folder ``llm-detected-ai-generated-text``
 
-# Model
+## Model
 - [The baseline model](https://www.kaggle.com/code/batprem/llm-daigt-preprocessing-bypass-catboost-added/notebook)
-- ![](pic/llm_daigt-Copy of Page-1.drawio.png)
+- ![image-io](llm_daigt-Copy of Page-1.drawio.png)
 
 
-# Documentation
+## Documentation
 - Documents your experiments/insights you have tried/found so far here.
 
-## Thang
+### Thang
 
-## Son
+### Son
 
-## Tanya
+### Tanya
 
-## Akrash
+### Akrash
 
-# Reference/Useful Link
+## Reference/Useful Link
 - [LLM-Detect AI-GP](https://www.kaggle.com/code/donghunlim/newstart-llm-detect-ai-gt-sub): Notebook with score 0.94
 	- VotingClassifier (Bagging method)
 - [Mistral-7b-v0](https://www.kaggle.com/code/minhsienweng/mistral-7b-v0-detection-train-infer)
