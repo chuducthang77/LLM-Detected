@@ -1,0 +1,10 @@
+regex
+numpy
+pandas
+scikit-learn
+spacy
+torch
+transformers
+lightgbm
+datasets
+catboost
