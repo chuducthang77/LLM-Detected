@@ -140,4 +140,3 @@ else:
     final_preds = ensemble.predict_proba(tf_test)[:,1]
     sub['generated'] = final_preds
     sub.to_csv('submission.csv', index=False)
-    sub
